@@ -13,6 +13,9 @@ jupyter notebook \
     --notebook-dir="." \
     --ip=0.0.0.0 --port=3225
 ```
+```bash
+fastapi dev main.py
+```
 
 # Instructions to replicate the model training
 
