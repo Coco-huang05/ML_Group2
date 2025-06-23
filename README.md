@@ -8,6 +8,11 @@ source venv/bin/activate
 pip install -r requirements.txt  
 pip install -r requirements.txt --no-deps
 ```
+```bash
+jupyter notebook \
+    --notebook-dir="." \
+    --ip=0.0.0.0 --port=3225
+```
 
 # Instructions to replicate the model training
 
